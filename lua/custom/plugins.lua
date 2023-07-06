@@ -11,7 +11,6 @@ return {
         "css-lsp",
         "html-lsp",
         "prettier",
-        "prettierd",
         "typescript-language-server",
         "eslint-lsp",
         "yaml-language-server",
