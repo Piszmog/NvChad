@@ -3,6 +3,7 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        "lua-language-server",
         "rust-analyzer",
         "gopls",
         "svelte-language-server",
@@ -12,6 +13,7 @@ return {
         "prettier",
         "typescript-language-server",
         "eslint-lsp",
+        "yaml-language-server",
       },
     },
   },
