@@ -11,6 +11,7 @@ return {
         "css-lsp",
         "html-lsp",
         "prettier",
+        "prettierd",
         "typescript-language-server",
         "eslint-lsp",
         "yaml-language-server",
@@ -87,5 +88,8 @@ return {
     build = function()
       vim.cmd [[silent! GoInstallDeps]]
     end,
+  },
+  {
+    "prettier/vim-prettier",
   },
 }

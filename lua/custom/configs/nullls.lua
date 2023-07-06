@@ -8,8 +8,12 @@ local sources = {
   formatting.fish_indent,
   formatting.gofmt,
   formatting.prettier,
+  formatting.rustfmt,
   formatting.stylua,
   formatting.zigfmt,
+  formatting.prettier.with {
+    extra_filetypes = { "toml", "svelte" },
+  },
 
   lint.eslint,
   lint.shellcheck,
