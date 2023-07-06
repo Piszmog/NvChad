@@ -14,6 +14,8 @@ return {
         "typescript-language-server",
         "eslint-lsp",
         "yaml-language-server",
+        "zls",
+        "bash-language-server",
       },
     },
   },
